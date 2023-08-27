@@ -28,7 +28,7 @@ pipeline{
 
          stage('Deploy'){
             steps{
-                sh 'curl "https://projeto-jenkins-scm.vercel.app/"'
+                sh 'make publish'
             }
         }
 
