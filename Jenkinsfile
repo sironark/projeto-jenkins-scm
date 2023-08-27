@@ -28,7 +28,7 @@ pipeline{
 
          stage('Deploy'){
             steps{
-                sh 'curl "https://vercel.com/sironark/projeto-jenkins-scm/ESQKKXPBTbjsB1NXBXVtHgx3tU3q"'
+                sh 'curl "https://projeto-jenkins-scm.vercel.app/"'
             }
         }
 
